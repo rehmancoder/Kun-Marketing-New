@@ -7,10 +7,7 @@ import WeAreAvailable from "@/components/WeAreAvailable";
 import Socities from "@/components/Socities";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
-// import Logo from "@/img/logo.jpg";
-// @ts-ignore
-import { WhatsAppWidget } from "react-whatsapp-widget";
-import "react-whatsapp-widget/dist/index.css";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 const index = () => {
   return (
@@ -23,13 +20,14 @@ const index = () => {
       <Reviews />
       <Contact />
       <div className="fixed bottom-7">
-        <WhatsAppWidget
-          // CompanyIcon={Logo}
+        <FloatingWhatsApp
           phoneNumber="+923331126588"
-          message="Hey! 👋🏼 How can I help you?"
-          companyName="Kun Marketing"
-          replyTimeText="Online"
-          sendButton="Let's Go!"
+          accountName="Kun Marketing"
+          allowEsc
+          allowClickAway
+          notification
+          notificationSound
+          statusMessage="Online"
         />
       </div>
     </div>

@@ -28,3 +28,10 @@
     rgba(198, 148, 54, 1) 79%
   );
 }
+
+.custom-whatsapp-avatar {
+  width: 60px;
+  height: 60px;
+  background-image: url("../img//logo.jpg");
+  background-size: cover;
+}
