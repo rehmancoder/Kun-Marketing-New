@@ -9,7 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "next": "latest",
+    "nodemailer": "^6.9.5",
     "react": "latest",
     "react-chatbot-kit": "^2.1.2",
     "react-dom": "latest",

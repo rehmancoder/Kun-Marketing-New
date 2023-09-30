@@ -1,6 +1,34 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [userName, setUserName] = useState("");
+  const [userNumber, setUserNumber] = useState("");
+  const [message, setMessage] = useState("");
+  const form = useRef<HTMLFormElement | null>(null); // Add type annotation
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_gwesqvb",
+          "template_qq7a5o4",
+          form.current,
+          "M8xZFu3AlPrx3drcx"
+        )
+        .then(
+          (result) => {
+            setUserName("");
+            setUserNumber("");
+            setMessage("");
+          },
+          (error) => {}
+        );
+    }
+  };
+
   return (
     <div className="bg-img-1 w-full relative lg:h-[80vh] h-screen">
       <div className="contact-grd h-full w-full opacity-90"></div>
@@ -20,24 +48,39 @@ const Contact = () => {
           <h1 className="font-Poppins text-2xl text-white font-medium">
             Request for <span className="text-primary">DISCOUNT</span> Booking
           </h1>
-          <form className="self-start mt-5 px-5 w-full space-y-10">
+          <form
+            ref={form}
+            onSubmit={sendEmail}
+            className="self-start mt-5 px-5 w-full space-y-10"
+          >
             <input
               type="text"
+              name="user_name"
               placeholder="Full Name"
               className="bg-black border-0 border-b-2 w-full border-primary pb-2 outline-none text-white"
+              onChange={(e) => setUserName(e.target.value)}
+              value={userName}
             />
             <input
-              type="number"
+              type="number" // Change to text type since it's a name
+              name="user_number"
               placeholder="Contact Number"
               className="bg-black border-0 border-b-2 w-full border-primary pb-2 outline-none text-white"
+              onChange={(e) => setUserNumber(e.target.value)}
+              value={userNumber}
             />
             <textarea
-              name=""
               id=""
+              name="message"
               placeholder="Type a Message"
               className="bg-black border-0 border-b-2 w-full border-primary pb-2 outline-none text-white md:h-32 h-18"
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
             ></textarea>
-            <button className="bg-primary font-Poppins w-full p-2 rounded-lg text-white">
+            <button
+              type="submit"
+              className="bg-primary font-Poppins w-full p-2 rounded-lg text-white"
+            >
               SEND
             </button>
           </form>

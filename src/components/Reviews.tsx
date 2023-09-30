@@ -93,7 +93,7 @@ const Reviews = () => {
                 <div className="text-white font-Poppins mt-7">
                   <h2 className="text-sm font-light leading-6">
                     Its a best & reliable place to get your investment secure
-                    through sky team. Highly Recommended
+                    through Kun Marketing team. Highly Recommended
                   </h2>
                   <h1 className="text-xl font-semibold mt-6">Yusra Sajid</h1>
                 </div>
