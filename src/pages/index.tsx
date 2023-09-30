@@ -7,6 +7,8 @@ import WeAreAvailable from "@/components/WeAreAvailable";
 import Socities from "@/components/Socities";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
+import { WhatsAppWidget } from "react-whatsapp-widget";
+import "react-whatsapp-widget/dist/index.css";
 
 const index = () => {
   return (
@@ -18,6 +20,15 @@ const index = () => {
       <Socities />
       <Reviews />
       <Contact />
+      <div className="fixed bottom-7">
+        <WhatsAppWidget
+          phoneNumber="+923331126588"
+          message="Hey! 👋🏼 How can I help you?"
+          companyName="Kun Marketing"
+          replyTimeText="Online"
+          sendButton="Let's Go!"
+        />
+      </div>
     </div>
   );
 };
