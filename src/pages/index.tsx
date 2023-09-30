@@ -19,17 +19,17 @@ const index = () => {
       <Socities />
       <Reviews />
       <Contact />
-      <div className="fixed bottom-7">
-        <FloatingWhatsApp
-          phoneNumber="+923331126588"
-          accountName="Kun Marketing"
-          allowEsc
-          allowClickAway
-          notification
-          notificationSound
-          statusMessage="Online"
-        />
-      </div>
+
+      <FloatingWhatsApp
+        className="whatsapp"
+        phoneNumber="+923331126588"
+        accountName="Kun Marketing"
+        allowEsc
+        allowClickAway
+        notification
+        notificationSound
+        statusMessage="Online"
+      />
     </div>
   );
 };
