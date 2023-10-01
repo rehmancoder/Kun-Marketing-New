@@ -8,18 +8,17 @@ import Socities from "@/components/Socities";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import Layout from "@/pages/Layout";
 
 const index = () => {
   return (
-    <div>
-      <Navbar />
+    <Layout>
       <Banner />
       <Welcome />
       <WeAreAvailable />
       <Socities />
       <Reviews />
       <Contact />
-
       <FloatingWhatsApp
         className="whatsapp"
         phoneNumber="+923331126588"
@@ -30,7 +29,7 @@ const index = () => {
         notificationSound
         statusMessage="Online"
       />
-    </div>
+    </Layout>
   );
 };
 

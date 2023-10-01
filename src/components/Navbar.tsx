@@ -62,7 +62,7 @@ const Navbar = () => {
       </div>
 
       {isOpen && (
-        <div className="bg-primary w-full fixed z-10">
+        <div className="bg-primary w-full">
           <div className="flex flex-col font-Poppins font-medium pb-10 pt-5">
             <Link
               href="/"
@@ -78,7 +78,7 @@ const Navbar = () => {
               {isDrop && (
                 <div className="flex flex-col">
                   <Link
-                    href="/"
+                    href="/article"
                     className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                   >
                     Article 1

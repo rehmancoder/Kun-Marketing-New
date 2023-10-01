@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import bannerCardImg from "@/img/CH-image.jpg";
+import Link from "next/link";
 
 const Banner: React.FC = () => {
   return (
@@ -16,7 +17,10 @@ const Banner: React.FC = () => {
               <h1 className="text-white md:text-4xl text-2xl text-center px-4 mt-5">
                 We have more than 18 years of experience
               </h1>
-              <div className="flex justify-center md:flex-row flex-col gap-6 md:gap-12 md:mt-20 mt-3">
+              <Link
+                href="/article"
+                className="flex justify-center md:flex-row flex-col gap-6 md:gap-12 md:mt-20 mt-3"
+              >
                 <div className="bg-white w-full h-56">
                   <Image
                     src={bannerCardImg}
@@ -41,7 +45,7 @@ const Banner: React.FC = () => {
                     </span>
                   </div>
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

@@ -28,3 +28,7 @@
     rgba(198, 148, 54, 1) 79%
   );
 }
+
+.underline-style {
+  @apply font-bold underline underline-offset-2 hover:no-underline cursor-pointer;
+}
