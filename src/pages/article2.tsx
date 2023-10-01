@@ -32,7 +32,7 @@ import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
 const Article2: React.FC = () => {
   return (
     <Layout>
-      <div className="container mx-auto lg:w-2/3 mt-5">
+      <div className="container mx-auto lg:w-2/3 mt-5 px-4">
         <h1 className="font-Poppins text-4xl text-primary font-bold">
           Kun Hills Islamabad
         </h1>
