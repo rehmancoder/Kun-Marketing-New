@@ -60,7 +60,7 @@ const Article2: React.FC = () => {
             the contemporary architect.
           </span>
         </div>
-        <div className="mb-6 ml-6">
+        <div className="mb-6 md:ml-6">
           <Image src={ArticleImg} alt="" />
         </div>
         <div>
@@ -93,82 +93,82 @@ const Article2: React.FC = () => {
           <h1 className="font-bold md:text-3xl text-primary font-Poppins mb-10">
             Sky Hills Islamabad Developers & Owners
           </h1>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg3} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg4} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg5} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg6} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg7} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg8} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg9} alt="" />
           </div>
           <div className="mb-4 ml-6">
             <Image src={ArticleImg10} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg11} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg12} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg13} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg14} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg15} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg16} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg17} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg18} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg19} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg20} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg21} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg22} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg23} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg24} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg25} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg26} alt="" />
           </div>
-          <div className="mb-4 ml-6">
+          <div className="mb-4 md:ml-6">
             <Image src={ArticleImg27} alt="" />
           </div>
-          {/* <div className="mb-4 ml-6">
+          {/* <div className="mb-4 md:ml-6">
             <Image src={ArticleImg28} alt="" />
           </div> */}
           <div className="mb-4">
