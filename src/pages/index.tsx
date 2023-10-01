@@ -7,7 +7,6 @@ import WeAreAvailable from "@/components/WeAreAvailable";
 import Socities from "@/components/Socities";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
-
 import Layout from "@/pages/Layout";
 
 const index = () => {

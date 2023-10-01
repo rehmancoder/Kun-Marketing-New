@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar"; // Create and import your Navbar component
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import Footer from "@/components/Footer";
 
 const Layout = ({ children }: any) => {
   return (
@@ -17,6 +18,7 @@ const Layout = ({ children }: any) => {
         statusMessage="Online"
       />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 };
