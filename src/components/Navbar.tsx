@@ -51,7 +51,7 @@ const Navbar = () => {
                       Article 1
                     </Link>
                     <Link
-                      href="/"
+                      href="/article2"
                       className=" duration-300 w-full p-2 pl-3 hover:border-l-8 border-white hover:bg-black hover:text-white"
                     >
                       Article 2
@@ -124,7 +124,7 @@ const Navbar = () => {
                   Article 1
                 </Link>
                 <Link
-                  href="/"
+                  href="/article2"
                   className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                 >
                   Article 2

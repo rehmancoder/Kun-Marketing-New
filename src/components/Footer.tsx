@@ -95,7 +95,7 @@ const Footer = () => {
             precision/accuracy of the information shared in any content on the
             website. Any investment-related financial or physical loss inflicted
             on the user or faced by the user or any of his/her associates using
-            the Sky Marketing website/blogs could not make Sky Marketing held
+            the Kun Marketing website/blogs could not make Sky Marketing held
             responsible in any local or international justice
             institutions/courts.Please proceed with the investments at your own
             risk.

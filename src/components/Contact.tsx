@@ -5,7 +5,7 @@ const Contact = () => {
   const [userName, setUserName] = useState("");
   const [userNumber, setUserNumber] = useState("");
   const [message, setMessage] = useState("");
-  const form = useRef<HTMLFormElement | null>(null); // Add type annotation
+  const form = useRef<HTMLFormElement | null>(null);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
@@ -20,11 +20,16 @@ const Contact = () => {
         )
         .then(
           (result) => {
+            // Clear the form fields after successful submission
             setUserName("");
             setUserNumber("");
             setMessage("");
+            console.log("Email sent successfully:", result);
           },
-          (error) => {}
+          (error) => {
+            // Handle error here if needed
+            console.error("Error sending email:", error);
+          }
         );
     }
   };

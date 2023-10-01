@@ -43,7 +43,7 @@ const Article: React.FC = () => {
         </div>
         <div className=" mb-20">
           <span className="leading-8 text-lg text-slate-800 font-Poppins">
-            Sky Marketing brings you a world-class investment opportunity with
+            Kun Marketing brings you a world-class investment opportunity with
             modern living in the heart of
             <span className="underline-style">Margalla Hills</span>. Capital
             Hills is a supreme residence for a modern lifestyle, with
