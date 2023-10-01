@@ -267,7 +267,7 @@ const Article: React.FC = () => {
           </div>
           <div className="mb-6">
             <h2 className="font-bold font-Poppins text-3xl">
-              Kun Marketing Contact Number's
+              Kun Marketing Contact Number is
             </h2>
             <ul className="list-disc ml-6">
               <li className="font-bold font-Poppins text-xl mt-4 text-primary">
