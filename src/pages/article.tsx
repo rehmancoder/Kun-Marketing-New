@@ -28,7 +28,7 @@ const Article: React.FC = () => {
         <div className="mb-4">
           <span className="leading-8 text-lg text-slate-800 font-Poppins">
             <span className="underline-style">Capital Hills Islamabad</span> is
-            a unique residential project{" "}
+            a unique residential project
             <span className="underline-style">developed</span> by NSK
             Construction Private Limited and owned by
             <span className="underline-style">Muhammad Shah Zain</span>
@@ -77,7 +77,7 @@ const Article: React.FC = () => {
         </div>
         <div className="mb-12">
           <span className="leading-8 text-lg text-slate-800 font-Poppins">
-            The Capital Hills Islamabad is owned by{" "}
+            The Capital Hills Islamabad is owned by
             <span className="underline-style">
               Mr. Muhammad Shah Zain, chairman of Capital Group,
             </span>
