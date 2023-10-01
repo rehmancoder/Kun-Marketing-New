@@ -79,25 +79,25 @@ const Navbar = () => {
                 <div className="flex flex-col">
                   <Link
                     href="/"
-                    className=" hover:text-primary duration-300 hover:bg-white w-full p-2 pl-10"
+                    className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                   >
                     Article 1
                   </Link>
                   <Link
                     href="/"
-                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                    className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                   >
                     Article 2
                   </Link>
                   <Link
                     href="/"
-                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                    className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                   >
                     Article 3
                   </Link>
                   <Link
                     href="/"
-                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                    className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
                   >
                     Article 4
                   </Link>
