@@ -14,6 +14,10 @@ const Navbar = () => {
   const handledrop = () => {
     setIsDrop(!isDrop);
   };
+  const [isHome, setIsHome] = useState<boolean>(false);
+  const handlehomedrop = () => {
+    setIsHome(!isHome);
+  };
   return (
     <>
       <div>
@@ -29,8 +33,43 @@ const Navbar = () => {
               <Link href="/" className="hover:text-primary duration-300">
                 HOME
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
-                BLOG
+              <Link
+                href="/"
+                className="hover:text-primary duration-300"
+                onClick={handlehomedrop}
+              >
+                <div className="flex items-center gap-2">
+                  <h1>BLOG</h1>
+                  <FaChevronDown />
+                </div>
+                {isHome && (
+                  <div className="flex flex-col fixed bg-primary z-10 w-44 mt-4">
+                    <Link
+                      href="/article"
+                      className=" duration-300 w-full p-2 pl-3 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                    >
+                      Article 1
+                    </Link>
+                    <Link
+                      href="/"
+                      className=" duration-300 w-full p-2 pl-3 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                    >
+                      Article 2
+                    </Link>
+                    <Link
+                      href="/"
+                      className="duration-300 w-full p-2 pl-3 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                    >
+                      Article 3
+                    </Link>
+                    <Link
+                      href="/"
+                      className="duration-300 w-full p-2 pl-3 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                    >
+                      Article 4
+                    </Link>
+                  </div>
+                )}
               </Link>
               <Link href="/" className="hover:text-primary duration-300">
                 VIDEOS
@@ -75,35 +114,35 @@ const Navbar = () => {
                 <h1>BLOG</h1>
                 <FaChevronDown />
               </div>
-              {isDrop && (
-                <div className="flex flex-col">
-                  <Link
-                    href="/article"
-                    className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
-                  >
-                    Article 1
-                  </Link>
-                  <Link
-                    href="/"
-                    className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
-                  >
-                    Article 2
-                  </Link>
-                  <Link
-                    href="/"
-                    className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
-                  >
-                    Article 3
-                  </Link>
-                  <Link
-                    href="/"
-                    className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
-                  >
-                    Article 4
-                  </Link>
-                </div>
-              )}
             </Link>
+            {isDrop && (
+              <div className="flex flex-col">
+                <Link
+                  href="/article"
+                  className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                >
+                  Article 1
+                </Link>
+                <Link
+                  href="/"
+                  className=" duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                >
+                  Article 2
+                </Link>
+                <Link
+                  href="/"
+                  className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                >
+                  Article 3
+                </Link>
+                <Link
+                  href="/"
+                  className="duration-300 w-full p-2 pl-10 hover:border-l-8 border-white hover:bg-black hover:text-white"
+                >
+                  Article 4
+                </Link>
+              </div>
+            )}
             <Link
               href="/"
               className="hover:text-primary duration-300 hover:bg-white p-3"

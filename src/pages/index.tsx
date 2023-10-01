@@ -7,7 +7,7 @@ import WeAreAvailable from "@/components/WeAreAvailable";
 import Socities from "@/components/Socities";
 import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
-import { FloatingWhatsApp } from "react-floating-whatsapp";
+
 import Layout from "@/pages/Layout";
 
 const index = () => {
@@ -19,16 +19,6 @@ const index = () => {
       <Socities />
       <Reviews />
       <Contact />
-      <FloatingWhatsApp
-        className="whatsapp"
-        phoneNumber="+923331126588"
-        accountName="Kun Marketing"
-        allowEsc
-        allowClickAway
-        notification
-        notificationSound
-        statusMessage="Online"
-      />
     </Layout>
   );
 };
