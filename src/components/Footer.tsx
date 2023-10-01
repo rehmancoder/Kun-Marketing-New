@@ -11,7 +11,7 @@ import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="">
       <div className="bg-[#1f2833] grid md:grid-cols-2 grid-cols-1 gap-5 p-5 text-white font-Poppins px-10 pt-20">
         <div>
           <div className="flex flex-col">
