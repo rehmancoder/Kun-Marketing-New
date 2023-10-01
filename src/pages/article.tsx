@@ -17,7 +17,7 @@ const Article: React.FC = () => {
           Capital Hills Islamabad
         </h1>
         <p className="mt-6 text-xl">
-          Aug 12, 2023 |{" "}
+          Aug 12, 2023 |
           <span className="font-semibold text-primary font-Poppins">
             Islamabad
           </span>
@@ -30,9 +30,9 @@ const Article: React.FC = () => {
             <span className="underline-style">Capital Hills Islamabad</span> is
             a unique residential project{" "}
             <span className="underline-style">developed</span> by NSK
-            Construction Private Limited and owned by{" "}
+            Construction Private Limited and owned by
             <span className="underline-style">Muhammad Shah Zain</span>
-            chairman of Capital Group. It is{" "}
+            chairman of Capital Group. It is
             <span className="underline-style">located</span> at Pir Sohawa Road,
             adjacent to <span className="underline-style">Dino Valley</span>.
             Capital Hills will not only provide you with a comfortable life but
@@ -44,20 +44,20 @@ const Article: React.FC = () => {
         <div className=" mb-20">
           <span className="leading-8 text-lg text-slate-800 font-Poppins">
             Sky Marketing brings you a world-class investment opportunity with
-            modern living in the heart of{" "}
+            modern living in the heart of
             <span className="underline-style">Margalla Hills</span>. Capital
             Hills is a supreme residence for a modern lifestyle, with
             spectacular views in every direction. In order to have a comfortable
             life while accessing luxurious amenities, make sure to invest in
-            Capital Hills. It is worth mentioning that{" "}
+            Capital Hills. It is worth mentioning that
             <span className="underline-style">Kun Marketing </span> is the
-            exclusive sales and{" "}
+            exclusive sales and
             <span className="underline-style">marketing partner </span> of
             <span className="underline-style">
-              {" "}
-              Capital Hills Islamabad{" "}
-            </span>{" "}
-            and reserves complete rights. So,{" "}
+              
+              Capital Hills Islamabad
+            </span>
+            and reserves complete rights. So,
             <span className="underline-style">CALL US NOW</span> and book your
             dream plot or get to know more about the project.
           </span>
@@ -93,7 +93,7 @@ const Article: React.FC = () => {
           <div className="mb-8">
             <span className="leading-8 text-lg text-slate-800 font-Poppins">
               The <span className="underline-style">location</span> of Capital
-              Hills Islamabad is ideally located at{" "}
+              Hills Islamabad is ideally located at
               <span className="underline-style">Pir Sohawa</span> Road adjacent
               to Dino Valley. The proposed Road Alignment project connecting
               Bari Imam to Pir Sohawa has also been under consideration with
@@ -125,7 +125,7 @@ const Article: React.FC = () => {
             <span className="text-lg text-slate-900 font-Poppins">
               <span className="underline-style">
                 Capital Hills Islamabad Location Map
-              </span>{" "}
+              </span>
               is quite easy to understand as it provides you with easy and quick
               access to the project.
             </span>
@@ -156,32 +156,32 @@ const Article: React.FC = () => {
                   30 min drive away from Sector F-11
                 </li>
                 <li className="text-lg text-slate-900 font-medium font-Poppins mt-3">
-                  25 min drive away from{" "}
+                  25 min drive away from
                   <span className="underline-style text-primary">
                     Blue Area
                   </span>
                 </li>
                 <li className="text-lg text-slate-900 font-medium font-Poppins mt-3">
-                  15 min drive away from{" "}
+                  15 min drive away from
                   <span className="underline-style text-primary">
                     Daman-e-Koh
                   </span>
                 </li>
                 <li className="text-lg text-slate-900 font-medium font-Poppins mt-3">
-                  41 min drive away from{" "}
+                  41 min drive away from
                   <span className="underline-style text-primary">
                     Bharakahu Bypass
                   </span>
                 </li>
                 <li className="text-lg text-slate-900 font-medium font-Poppins mt-3">
-                  5 min drive away from{" "}
+                  5 min drive away from
                   <span className="underline-style text-primary">
                     Monal Restaurant
                   </span>
                   /Pir Sohawa
                 </li>
                 <li className="text-lg text-slate-900 font-medium font-Poppins mt-3">
-                  45 Min drive away from{" "}
+                  45 Min drive away from
                   <span className="underline-style text-primary">
                     Islamabad International Airport
                   </span>
@@ -252,11 +252,11 @@ const Article: React.FC = () => {
               The <span className="underline-style">master plan </span> of
               <span className="underline-style">
                 Capital Hills Islamabad
-              </span>{" "}
+              </span>
               is excellently designed by a team of professionals and experts. It
               offers various sizes of residential plots at affordable prices. It
               is worth mentioning that Capital Hills spans over a huge area of
-              almost{" "}
+              almost
               <span className="underline-style">
                 10,000 Kanal premium land.
               </span>
