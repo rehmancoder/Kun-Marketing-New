@@ -3,11 +3,16 @@ import Link from "next/link";
 import Image from "next/image";
 import Logo from "@/img/logo.jpg";
 import { RiMenu3Line } from "react-icons/ri";
+import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const handelBtn = () => {
     setIsOpen(!isOpen);
+  };
+  const [isDrop, setIsDrop] = useState<boolean>(false);
+  const handledrop = () => {
+    setIsDrop(!isDrop);
   };
   return (
     <>
@@ -65,11 +70,39 @@ const Navbar = () => {
             >
               HOME
             </Link>
-            <Link
-              href="/"
-              className="hover:text-primary duration-300 hover:bg-white p-3"
-            >
-              BLOG
+            <Link href="/" className="" onClick={handledrop}>
+              <div className="flex items-center gap-2 hover:text-primary duration-300 hover:bg-white w-full p-3">
+                <h1>BLOG</h1>
+                <FaChevronDown />
+              </div>
+              {isDrop && (
+                <div className="flex flex-col">
+                  <Link
+                    href="/"
+                    className=" hover:text-primary duration-300 hover:bg-white w-full p-2 pl-10"
+                  >
+                    Article 1
+                  </Link>
+                  <Link
+                    href="/"
+                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                  >
+                    Article 2
+                  </Link>
+                  <Link
+                    href="/"
+                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                  >
+                    Article 3
+                  </Link>
+                  <Link
+                    href="/"
+                    className=" hover:text-primary duration-300 hover:bg-white w-full  p-2 pl-10"
+                  >
+                    Article 4
+                  </Link>
+                </div>
+              )}
             </Link>
             <Link
               href="/"
