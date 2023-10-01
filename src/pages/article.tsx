@@ -12,12 +12,12 @@ import Layout from "@/pages/Layout";
 const Article: React.FC = () => {
   return (
     <Layout>
-      <div className="container mx-auto lg:w-2/3 mt-20 px-4">
+      <div className="container mx-auto lg:w-2/3 mt-20">
         <h1 className="font-Poppins text-4xl text-primary font-bold">
           Capital Hills Islamabad
         </h1>
         <p className="mt-6 text-xl">
-          Aug 12, 2023 |{" "}
+          Aug 12, 2023 |
           <span className="font-semibold text-primary font-Poppins">
             Islamabad
           </span>
@@ -53,8 +53,11 @@ const Article: React.FC = () => {
             <span className="underline-style">Kun Marketing </span> is the
             exclusive sales and
             <span className="underline-style">marketing partner </span> of
-            <span className="underline-style">Capital Hills Islamabad</span>
-            and reserves complete rights. So,
+            <span className="underline-style">
+              {" "}
+              Capital Hills Islamabad{" "}
+            </span>{" "}
+            and reserves complete rights. So,{" "}
             <span className="underline-style">CALL US NOW</span> and book your
             dream plot or get to know more about the project.
           </span>
@@ -122,7 +125,7 @@ const Article: React.FC = () => {
             <span className="text-lg text-slate-900 font-Poppins">
               <span className="underline-style">
                 Capital Hills Islamabad Location Map
-              </span>{" "}
+              </span>
               is quite easy to understand as it provides you with easy and quick
               access to the project.
             </span>
@@ -247,7 +250,9 @@ const Article: React.FC = () => {
             </h2>
             <span className="text-lg text-slate-900 font-Poppins">
               The <span className="underline-style">master plan </span> of
-              <span className="underline-style">Capital Hills Islamabad</span>
+              <span className="underline-style">
+                Capital Hills Islamabad
+              </span>{" "}
               is excellently designed by a team of professionals and experts. It
               offers various sizes of residential plots at affordable prices. It
               is worth mentioning that Capital Hills spans over a huge area of
