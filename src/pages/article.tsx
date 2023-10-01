@@ -12,7 +12,7 @@ import Layout from "@/pages/Layout";
 const Article: React.FC = () => {
   return (
     <Layout>
-      <div className="container mx-auto lg:w-2/3 mt-20">
+      <div className="container mx-auto lg:w-2/3 mt-20 px-4">
         <h1 className="font-Poppins text-4xl text-primary font-bold">
           Capital Hills Islamabad
         </h1>
