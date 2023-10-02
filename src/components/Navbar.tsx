@@ -83,7 +83,7 @@ const Navbar = () => {
               <Link href="/news" className="hover:text-primary duration-300">
                 NEWS
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link href="/career" className="hover:text-primary duration-300">
                 CAREER
               </Link>
               <Link href="/contact" className="hover:text-primary duration-300">
@@ -168,7 +168,7 @@ const Navbar = () => {
               NEWS
             </Link>
             <Link
-              href="/"
+              href="/career"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               CAREER

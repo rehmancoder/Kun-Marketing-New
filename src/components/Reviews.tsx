@@ -62,7 +62,10 @@ const Reviews = () => {
               </div>
             </div>
             {/* Reviews */}
-            <div className="w-full mt-16 flex flex-col gap-16">
+            <div
+              className="w-full mt-16 flex flex-col gap-16"
+              data-aos="fade-in"
+            >
               <div className="flex justify-center items-center flex-col bg-[#0c71c3] w-full rounded-lg p-5">
                 <div className="-mt-14 bg-primary p-2 rounded-full shadow-2xl h-14 w-14 flex justify-center items-center text-white text-2xl">
                   <MdReviews classNames="text-2xl text-white" />
