@@ -29,10 +29,15 @@
   );
 }
 
+.contact-bg {
+  background: url(../img//contact-bg.jpg);
+  background-size: cover;
+}
+
 .underline-style {
   @apply font-bold underline underline-offset-2 hover:no-underline cursor-pointer;
 }
 
 .social-icons {
-  @apply hover:text-white border-2 duration-300 hover:scale-110 rounded-full w-10 h-10 p-2 hover:bg-primary border-primary text-primary;
+  @apply hover:text-white border-2 duration-300 hover:scale-110 rounded-full md:w-10 md:h-10 w-9 h-9 p-2 hover:bg-primary border-primary text-primary;
 }

@@ -62,7 +62,7 @@ const Footer = () => {
               CONTACT
             </Link>
           </div>
-          <div className="flex gap-5 mt-5 text-2xl">
+          <div className="flex gap-2 mt-5 md:text-2xl ">
             <Link href="/" className="">
               <FaFacebookF className="social-icons" />
             </Link>
@@ -95,7 +95,7 @@ const Footer = () => {
             precision/accuracy of the information shared in any content on the
             website. Any investment-related financial or physical loss inflicted
             on the user or faced by the user or any of his/her associates using
-            the Kun Marketing website/blogs could not make Sky Marketing held
+            the Kun Marketing website/blogs could not make Kun Marketing held
             responsible in any local or international justice
             institutions/courts.Please proceed with the investments at your own
             risk.

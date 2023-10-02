@@ -34,7 +34,7 @@ const Navbar = () => {
                 HOME
               </Link>
               <Link
-                href="/"
+                href="#"
                 className="hover:text-primary duration-300"
                 onClick={handlehomedrop}
               >
@@ -71,7 +71,7 @@ const Navbar = () => {
                   </div>
                 )}
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link href="/videos" className="hover:text-primary duration-300">
                 VIDEOS
               </Link>
               <Link href="/" className="hover:text-primary duration-300">
@@ -80,13 +80,13 @@ const Navbar = () => {
               <Link href="/" className="hover:text-primary duration-300">
                 OFFERS
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link href="/news" className="hover:text-primary duration-300">
                 NEWS
               </Link>
               <Link href="/" className="hover:text-primary duration-300">
                 CAREER
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link href="/contact" className="hover:text-primary duration-300">
                 CONTACT
               </Link>
             </div>
@@ -109,7 +109,7 @@ const Navbar = () => {
             >
               HOME
             </Link>
-            <Link href="/" className="" onClick={handledrop}>
+            <Link href="#" className="" onClick={handledrop}>
               <div className="flex items-center gap-2 hover:text-primary duration-300 hover:bg-white w-full p-3">
                 <h1>BLOG</h1>
                 <FaChevronDown />
@@ -144,7 +144,7 @@ const Navbar = () => {
               </div>
             )}
             <Link
-              href="/"
+              href="/videos"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               VIDEOS
@@ -162,7 +162,7 @@ const Navbar = () => {
               OFFERS
             </Link>
             <Link
-              href="/"
+              href="/news"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               NEWS
@@ -174,7 +174,7 @@ const Navbar = () => {
               CAREER
             </Link>
             <Link
-              href="/"
+              href="/contact"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               CONTACT

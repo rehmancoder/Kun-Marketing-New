@@ -37,7 +37,7 @@ const Contact = () => {
   return (
     <div className="bg-img-1 w-full relative lg:h-[80vh] h-screen">
       <div className="contact-grd h-full w-full opacity-90"></div>
-      <div className="absolute top-0 p-10 flex lg:flex-row flex-col items-center justify-center  w-full">
+      <div className="absolute top-0 p-10 flex lg:flex-row flex-col items-center justify-center w-full">
         <div className="flex flex-col">
           <h1 className="text-white font-Poppins text-4xl font-semibold">
             WE ARE READY TO SERVE YOU IN REAL ESTATE
