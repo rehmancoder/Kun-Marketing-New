@@ -74,10 +74,13 @@ const Navbar = () => {
               <Link href="/videos" className="hover:text-primary duration-300">
                 VIDEOS
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link
+                href="/socities"
+                className="hover:text-primary duration-300"
+              >
                 SOCITIES
               </Link>
-              <Link href="/" className="hover:text-primary duration-300">
+              <Link href="/offers" className="hover:text-primary duration-300">
                 OFFERS
               </Link>
               <Link href="/news" className="hover:text-primary duration-300">
@@ -150,13 +153,13 @@ const Navbar = () => {
               VIDEOS
             </Link>
             <Link
-              href="/"
+              href="/socities"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               SOCITIES
             </Link>
             <Link
-              href="/"
+              href="/offers"
               className="hover:text-primary duration-300 hover:bg-white p-3"
             >
               OFFERS
