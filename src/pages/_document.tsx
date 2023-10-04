@@ -4,6 +4,10 @@ export default function Document() {
   return (
     <Html>
       <Head />
+      <script
+        src="//code.tidio.co/vefyadibv8my1ev6rsg1xjpq0ni3ypjx.js"
+        async
+      ></script>
       <body>
         <Main />
         <NextScript />
